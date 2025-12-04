@@ -1,0 +1,63 @@
+Sure! Below is a **humanized 8-week progress/commentary summary** for your dissertation project.
+It is written in a reflective, natural, and student-friendly tone—something suitable for a project logbook, weekly report, or supervisor updates.
+
+---
+
+# ✅ **8-Week Project Comments (Humanized & Natural)**
+
+### **Week 1 – Project Understanding & Planning**
+
+This week was mainly about grounding myself in the topic and clearly understanding what I wanted to achieve. I reviewed initial research on AI in labour-market prediction and drafted the aim and objectives. I also explored the datasets available from the Pittsburgh ACS survey. By the end of the week, I had a clearer roadmap and discussed my plan with my supervisor. Overall, this week felt like setting the foundation for the entire project.
+
+---
+
+### **Week 2 – Literature Review & Data Familiarisation**
+
+During this week, I focused heavily on strengthening the literature review. I explored how AI, machine learning, and socio-economic datasets have been used in job market forecasting. This helped me define gaps that my study could address. I also spent time familiarising myself with all four datasets—employment, education, poverty, and self-employment income. I identified initial issues like inconsistent column names and missing values. It was a productive week in terms of building theoretical and practical understanding.
+
+---
+
+### **Week 3 – Data Cleaning & Preprocessing**
+
+This week was more technical. I worked extensively on cleaning the datasets—removing duplicates, handling missing values, renaming columns, and ensuring consistency across all data sources. Merging the datasets into a single analytical file was a key achievement. I also started early exploratory data analysis (EDA) to detect patterns and outliers. By the end of the week, I had a clean, combined dataset ready for modelling.
+
+---
+
+### **Week 4 – Exploratory Data Analysis & Feature Engineering**
+
+Week 4 focused on generating meaningful insights through EDA. I created correlation matrices, histograms, and various plots to understand relationships between variables. This helped me identify which features had the strongest impact on labour-market behaviours. I also created engineered features to improve prediction quality. Visualising educational levels, poverty distribution, and unemployment patterns helped me gain a deeper appreciation of the socio-economic differences across neighborhoods.
+
+---
+
+### **Week 5 – Model Development (Classification & Regression)**
+
+This week I began building machine learning models. I implemented Random Forest and Gradient Boosting for classification, and Decision Tree Regression and Random Forest Regression for continuous predictions. Hyperparameter tuning and cross-validation helped improve accuracy. I spent time comparing model performance through accuracy, precision, recall, R², MAE, and RMSE. Gradient Boosting emerged as the best classification model, while Decision Tree performed well for regression. The modelling process was challenging but rewarding.
+
+---
+
+### **Week 6 – System Implementation & Testing**
+
+I implemented the Job Market Trend Recommendation System and tested it with both low-value and high-value input scenarios. The goal was to see how the system behaved under extreme or unusual labour-market conditions. It was satisfying to see that the system produced stable and meaningful predictions despite varying input levels. This week strengthened confidence in the robustness and scalability of the model. I also improved code readability and added comments.
+
+---
+
+### **Week 7 – Documentation & Project Management**
+
+This week was dedicated to polishing the documentation—writing the analysis, methodology, system design, implementation details, and integrating graphs and results. I completed the project management sections, including the Gantt chart, risk management, and quality assurance. I also wrote the ethical, legal, social, and professional considerations, which helped me reflect on responsible AI practices. The report started coming together well this week.
+
+---
+
+### **Week 8 – Final Review, Evaluation & Reflection**
+
+In the final week, I revised the entire dissertation for clarity, flow, and coherence. I refined the conclusion, achievements, and future work sections. I also completed my personal reflection, acknowledging what I learned throughout the process. Minor improvements were made to visuals, citations, and formatting based on feedback. This week felt like wrapping up a long, insightful journey—turning weeks of coding, analysis, and writing into a polished final project.
+
+---
+
+If you want, I can also:
+
+✔ format this into a table
+✔ add supervisor-style feedback comments for each week
+✔ make it more formal or more casual
+✔ rewrite it to match a specific tone or university requirement
+
+Just let me know!

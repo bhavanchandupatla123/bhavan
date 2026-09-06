@@ -15,8 +15,22 @@ document.querySelectorAll('.nav-links a').forEach(link => {
 
 document.getElementById('year').textContent = new Date().getFullYear();
 
-const profileImage = document.querySelector('.profile-frame img');
-if (profileImage) profileImage.src = 'https://raw.githubusercontent.com/bhavanchandupatla123/bhavan/ee4b86828560a3db26def044c7a2e543ff8c4dc4/assets/bhavan-profile.jpg';
+const contactLinks = document.querySelector('.contact-links');
+if (contactLinks) {
+  const linkedIn = document.createElement('a');
+  linkedIn.className = 'contact-pill magnetic';
+  linkedIn.href = 'https://linkedin.com/in/bhavan-chandupatla-718b75419';
+  linkedIn.target = '_blank';
+  linkedIn.rel = 'noreferrer';
+  linkedIn.innerHTML = '<span>IN</span> LinkedIn ↗';
+
+  const email = document.createElement('a');
+  email.className = 'contact-pill magnetic';
+  email.href = 'mailto:bhavanchandupatla112@gmail.com';
+  email.innerHTML = '<span>MAIL</span> bhavanchandupatla112@gmail.com ↗';
+
+  contactLinks.append(linkedIn, email);
+}
 
 const glow = document.querySelector('.cursor-glow');
 window.addEventListener('pointermove', e => {

@@ -15,6 +15,10 @@ document.querySelectorAll('.nav-links a').forEach(link => {
 
 document.getElementById('year').textContent = new Date().getFullYear();
 
+// Force a standard JPEG profile asset to avoid SVG/WebP rendering issues.
+const profileImage = document.querySelector('.profile-frame img');
+if (profileImage) profileImage.src = 'assets/bhavan-profile.jpg?v=2';
+
 // Mouse-follow glow
 const glow = document.querySelector('.cursor-glow');
 window.addEventListener('pointermove', e => {

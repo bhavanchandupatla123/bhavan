@@ -1,0 +1,46 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="720" viewBox="0 0 1200 720" role="img" aria-labelledby="title desc">
+  <title id="title">Chocolate Insights Power BI dashboard preview</title>
+  <desc id="desc">A stylized dashboard preview showing KPI cards, a sales trend chart and product performance bars.</desc>
+  <rect width="1200" height="720" fill="#0d1727"/>
+  <rect x="40" y="36" width="1120" height="648" rx="24" fill="#111d30" stroke="#294258"/>
+  <text x="76" y="92" fill="#f4f7fb" font-family="Arial, sans-serif" font-size="30" font-weight="700">Chocolate Insights</text>
+  <text x="76" y="124" fill="#9fb0c8" font-family="Arial, sans-serif" font-size="16">Power BI portfolio dashboard</text>
+  <g font-family="Arial, sans-serif">
+    <g>
+      <rect x="76" y="160" width="220" height="110" rx="16" fill="#17263b"/>
+      <text x="96" y="192" fill="#9fb0c8" font-size="14">TOTAL SALES</text>
+      <text x="96" y="238" fill="#54d2d2" font-size="34" font-weight="700">KPI</text>
+    </g>
+    <g>
+      <rect x="316" y="160" width="220" height="110" rx="16" fill="#17263b"/>
+      <text x="336" y="192" fill="#9fb0c8" font-size="14">TOTAL BOXES</text>
+      <text x="336" y="238" fill="#7dd3fc" font-size="34" font-weight="700">KPI</text>
+    </g>
+    <g>
+      <rect x="556" y="160" width="220" height="110" rx="16" fill="#17263b"/>
+      <text x="576" y="192" fill="#9fb0c8" font-size="14">SHIPMENTS</text>
+      <text x="576" y="238" fill="#54d2d2" font-size="34" font-weight="700">KPI</text>
+    </g>
+    <g>
+      <rect x="796" y="160" width="328" height="110" rx="16" fill="#17263b"/>
+      <text x="816" y="192" fill="#9fb0c8" font-size="14">DATE ANALYSIS</text>
+      <rect x="816" y="216" width="268" height="10" rx="5" fill="#24384f"/>
+      <rect x="816" y="216" width="178" height="10" rx="5" fill="#54d2d2"/>
+    </g>
+  </g>
+  <rect x="76" y="306" width="660" height="310" rx="16" fill="#17263b"/>
+  <text x="100" y="342" fill="#f4f7fb" font-family="Arial, sans-serif" font-size="18" font-weight="700">Sales Trend</text>
+  <line x1="112" y1="560" x2="700" y2="560" stroke="#31455a"/>
+  <line x1="112" y1="380" x2="112" y2="560" stroke="#31455a"/>
+  <polyline points="112,520 185,480 260,500 335,430 410,455 485,400 560,420 635,360 700,385" fill="none" stroke="#54d2d2" stroke-width="6" stroke-linejoin="round" stroke-linecap="round"/>
+  <circle cx="635" cy="360" r="8" fill="#7dd3fc"/>
+  <rect x="760" y="306" width="364" height="310" rx="16" fill="#17263b"/>
+  <text x="784" y="342" fill="#f4f7fb" font-family="Arial, sans-serif" font-size="18" font-weight="700">Product Performance</text>
+  <g fill="#9fb0c8" font-family="Arial, sans-serif" font-size="14">
+    <text x="784" y="392">Product A</text><rect x="880" y="378" width="190" height="18" rx="9" fill="#54d2d2"/>
+    <text x="784" y="442">Product B</text><rect x="880" y="428" width="154" height="18" rx="9" fill="#7dd3fc"/>
+    <text x="784" y="492">Product C</text><rect x="880" y="478" width="122" height="18" rx="9" fill="#54d2d2"/>
+    <text x="784" y="542">Product D</text><rect x="880" y="528" width="94" height="18" rx="9" fill="#7dd3fc"/>
+  </g>
+  <text x="76" y="658" fill="#6f829a" font-family="Arial, sans-serif" font-size="14">Portfolio preview • Live Power BI embed can be added later</text>
+</svg>
